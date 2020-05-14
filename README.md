@@ -3,9 +3,9 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
+* [Getting Started](#getting-started-with-back-end)
   * [Prerequisites](#prerequisites)
-  * [Installation](#instructions)
+  * [Installation](#nstructions-for-installing-and-running-the-applications-front-end-locally)
   
   <!-- ABOUT THE PROJECT -->
   # About the Project
