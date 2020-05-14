@@ -1,7 +1,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](*about-the-project)
+* [About the Project](#about-the-project)
   *[Built With](#built-with)
  * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -33,4 +33,9 @@ Make sure Node.js is installed to your computer. Download from: `https://nodejs.
 ### Deploying front-end locally
 Followed by steps previosly in section Prerequisites
 
-1. 
+1. Type and run command `npm install` and wait for installation to finnish.
+2. To deploy the app type either `expo start` or `npm start` and when finnished navigate to url `http://localhost:19002`.
+4. On the left-bottom corner click to change the connection type to tunnel.
+5. Open Expo app on your mobile device and scan the QR-code and the app should start to build.
+6. Once the build is completed the app is usable via your phone and ready for developing.
+
