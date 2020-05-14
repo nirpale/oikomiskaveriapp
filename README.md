@@ -5,7 +5,7 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  * [Installation](#instructions)
   
   <!-- ABOUT THE PROJECT -->
   # About the Project
