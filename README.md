@@ -3,7 +3,6 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started-with-back-end)
   * [Prerequisites](#prerequisites)
   * [Installation](#instructions-for-installing-and-running-the-applications-front-end-locally)
   
@@ -20,11 +19,6 @@ Project is to create a mobile app to help with the use of dental braces via noti
 * [Expo CLI](https://expo.io/)
 * [Node.js](https://nodejs.org/en/)
 * [Express -framework for Node.js](https://expressjs.com/)
-
-<!-- GETTING STARTED -->
-# Getting Started with Back-End
-
-Make sure Node.js is installed to your computer. Download from: `https://nodejs.org/en/`
 
 ## Prerequisites
 
