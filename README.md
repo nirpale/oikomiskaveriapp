@@ -17,6 +17,7 @@ Project is to create a mobile app to help with the use of dental braces via noti
 ### Built With
 * [Google Firebase](https://firebase.google.com/)
 * [React Native](https://reactnative.dev/)
+* [Expo CLI](https://expo.io/)
 * [Node.js](https://nodejs.org/en/)
 * [Express -framework for Node.js](https://expressjs.com/)
 
@@ -26,16 +27,38 @@ Project is to create a mobile app to help with the use of dental braces via noti
 Make sure Node.js is installed to your computer. Download from: `https://nodejs.org/en/`
 
 ### Prerequisites
-1. Download or clone git-repository: `https://github.com/oikomiskaveri/oikomiskaveriapp`
-2. Unzip the folder to any destination on your computer.
-3. Navigate to the folder and `Shift + Right Click => Run PowerShell`.
 
-### Deploying front-end locally
+#### To install and run the application you need Git, Node.js, Expo CLI and Expo app (instructions for installing these following)
+
+##### Instructions for installing Git for Windows
+Download the git installer from https://gitforwindows.org/ and follow it's instructions.
+
+##### Instructions for installing node.js
+Download the node.js installer from https://nodejs.org/en/download/ and follow it's instructions.
+
+##### Instructions for installing Expo CLI
+Open your terminal and run the following command on it `npm install -g expo-cli`.
+
+##### Instructions for installing Expo app (Android/Apple)
+Open Google Play Store / AppStore in your mobile, search for Expo and download the app.
+
+### Instructions for installing and running the applications front-end locally
 Followed by steps previosly in section Prerequisites
 
-1. Type and run command `npm install` and wait for installation to finnish.
-2. To deploy the app type either `expo start` or `npm start` and when finnished navigate to url `http://localhost:19002`.
-4. On the left-bottom corner click to change the connection type to tunnel.
-5. Open Expo app on your mobile device and scan the QR-code and the app should start to build.
-6. Once the build is completed the app is usable via your phone and ready for developing.
+#### Step 1
+The easiest way to get the project is to clone it. Create an empty folder and open the Git-terminal (for example GitBash) on it. Then clone the project using following command `git clone https://github.com/oikomiskaveri/oikomiskaveriapp`.
+
+#### Step 2
+Navigate to the cloned project folder and open your (PowerShell)-terminal
+
+#### Step 3
+To install the needed dependencies execute the following command in your terminal `npm install`.
+
+#### Step 4
+Now you can start up the application by writing the following command to the terminal `expo start`, it will open expo's own terminal to web browser on port localhost:19002.
+
+Switch the connection from LAN to Tunnel from the left side of the browser just above the QR-code. You can also use LAN but then your computer and mobile should be on the same network. Wait until it reads 'Tunnel ready' in your expo terminal.
+
+#### Step 5
+Open the Expo app in your mobile, navigate to the Projects view and scan the QR-code from the expo terminal by pressing 'Scan QR Code' on the app. Now the application should start building on your mobile and should be ready for testing after few seconds (and sometimes after few seconds more).
 
