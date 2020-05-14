@@ -43,7 +43,6 @@ Open your terminal and run the following command on it `npm install -g expo-cli`
 Open Google Play Store / AppStore in your mobile, search for Expo and download the app.
 
 ## Instructions for installing and running the applications front-end locally
-Followed by steps previosly in section Prerequisites
 
 #### Step 1
 The easiest way to get the project is to clone it. Create an empty folder and open the Git-terminal (for example GitBash) on it. Then clone the project using following command `git clone https://github.com/oikomiskaveri/oikomiskaveriapp`.
